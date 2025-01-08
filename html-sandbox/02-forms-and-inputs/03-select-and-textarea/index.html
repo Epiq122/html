@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,6 +6,30 @@
     <title>HTML & CSS Sandbox</title>
   </head>
   <body>
-    <h1>HTML & CSS Sandbox - Select & Textarea</h1>
+    <h1>Tech Support</h1>
+
+    <form>
+      <label for="product">Product</label>
+      <br />
+      <select name="product" id="product" multiple size="2">
+        <option value="n64">Nintendo 64</option>
+        <option value="ps1" selected>Playstation 1</option>
+        <option value="ps2">Playstation 2</option>
+        <option value="xbox">Xbox</option>
+      </select>
+      <br />
+      <br />
+      <label for="message">Message</label>
+      <br />
+      <textarea
+        name="message"
+        id="message"
+        cols="30"
+        rows="10"
+        placeholder="Enter your issue"
+      >
+      </textarea>
+      <input type="submit" value="Submit" />
+    </form>
   </body>
 </html>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,6 +6,60 @@
     <title>HTML & CSS Sandbox</title>
   </head>
   <body>
-    <h1>HTML & CSS Sandbox - HTML Form Challenge</h1>
+    <h1>Apartment Search</h1>
+
+    <form action="">
+      <label for="location">
+        Location:
+        <input
+          type="text"
+          id="location"
+          name="location"
+          placeholder="Enter a location"
+        />
+      </label>
+      <br />
+      <label for="price">
+        Price:
+        <input type="range" name="price" id="price" />
+      </label>
+      <br />
+      <label for="numOfBedrooms">
+        Number of Bedrooms:
+        <input
+          type="number"
+          name="numOfBedrooms"
+          id="numOfBedrooms"
+          placeholder="Number of Bedrooms"
+        />
+      </label>
+      <br />
+      <label for="numOfBathrooms">
+        Number of Bathrooms:
+        <input
+          type="number"
+          name="numOfBathrooms"
+          id="numOfBathrooms"
+          placeholder="Number of Bathrooms"
+        />
+      </label>
+      <br />
+      <label for="yes">
+        Pets Allowed:
+        <input type="checkbox" name="petsAllowed" id="yes" value="yes" />
+        Yes
+      </label>
+      <label for="no">
+        <input type="checkbox" name="petsAllowed" id="no" value="no" />
+        No
+      </label>
+      <br />
+      <label for="dateAvailable">
+        Date Available:
+        <input type="date" name="dateAvailable" id="dateAvailable" />
+      </label>
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
   </body>
 </html>
