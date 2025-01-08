@@ -1,11 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML & CSS Sandbox</title>
   </head>
+
+  <style>
+    meter::-webkit-meter-optimum-value {
+      background: red;
+    }
+  </style>
   <body>
     <h1>HTML & CSS Sandbox - Progress & Meter</h1>
+
+    <!--    Progress-->
+    <label for="file">File progress:</label>
+    <progress id="file" value="50" max="100">50%</progress>
+    <br /><br />
+    <!--    Meter-->
+    <label for="fuel">Fuel:</label>
+    <meter
+      value="20"
+      id="fuel"
+      min="0"
+      max="100"
+      low="30"
+      high="90"
+      optimal="80"
+    ></meter>
   </body>
 </html>
