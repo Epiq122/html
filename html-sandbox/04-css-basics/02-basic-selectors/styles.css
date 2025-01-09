@@ -1,0 +1,45 @@
+body {
+  font-family: Verdana, "sans-serif";
+}
+
+/*Type Selectors*/
+
+/*h2{*/
+/*    color:red;*/
+/*    font-size: 30px;*/
+/*}*/
+
+/*a{*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*Class Selectors*/
+.sporty {
+  color: red;
+}
+
+.casual {
+  color: blue;
+}
+
+.formal {
+  color: green;
+}
+
+/*Id Selector*/
+
+#container {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+}
+
+/*multiple*/
+.sporty,
+.casual {
+  font-size: 35px;
+}
+/*Descendant styles*/
+#container p {
+  background: #4caf50;
+}
